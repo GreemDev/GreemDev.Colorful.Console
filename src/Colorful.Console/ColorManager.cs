@@ -111,7 +111,7 @@ namespace Colorful
         /// <returns></returns>
         public static bool IsWindows()
         {
-            bool isWindows = true;
+            bool isWindows = false;
 
 #if NETSTANDARD2_0
             isWindows = RuntimeInformation.IsOSPlatform(OSPlatform.Windows);

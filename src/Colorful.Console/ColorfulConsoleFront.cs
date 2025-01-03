@@ -140,7 +140,8 @@ namespace Colorful
             isWindows = ColorManager.IsWindows();
             try
             {
-                if (isWindows) defaultColorMap = new ColorMapper().GetBufferColors();
+                if (isWindows) 
+                    defaultColorMap = new ColorMapper().GetBufferColors();
             }
             catch (ConsoleAccessException)
             {
