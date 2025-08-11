@@ -9,20 +9,11 @@
 
     public class Figlet
     {
-        private readonly FigletFont font;
-
-        public Figlet()
+        public static StyledString GetAscii(string value, FigletFont font = null)
         {
-            font = FigletFont.Default;
-        }
+            if (font is null)
+                font = FigletFont.Default;
 
-        public Figlet(FigletFont font)
-        {
-            this.font = font ?? throw new ArgumentNullException(nameof(font));
-        }
-
-        public StyledString ToAscii(string value)
-        {
             if (value == null) { throw new ArgumentNullException(nameof(value)); }
 
             if (Encoding.UTF8.GetByteCount(value) != value.Length) { throw new ArgumentException("String contains non-ascii characters"); }
@@ -62,6 +53,20 @@
 
             return styledString;
         }
+        
+        private readonly FigletFont font;
+
+        public Figlet()
+        {
+            font = FigletFont.Default;
+        }
+
+        public Figlet(FigletFont font)
+        {
+            this.font = font ?? throw new ArgumentNullException(nameof(font));
+        }
+
+        public StyledString ToAscii(string value) => GetAscii(value, font);
 
         private static void CalculateCharacterGeometries(string fragment, int characterIndex, int runningWidthTotal, int line, char[,] charGeometry, int[,] indexGeometry)
         {

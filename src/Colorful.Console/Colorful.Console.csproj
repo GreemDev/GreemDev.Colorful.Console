@@ -5,22 +5,22 @@
     <Copyright>@ Tom Akita. All rights Reserved.</Copyright>
     <AssemblyTitle>Colorful.Console</AssemblyTitle>
     <VersionPrefix>1.3</VersionPrefix>
-    <Authors>Tom Akita;Muhammad Rehan Saeed;Matt Furden;Drew Noakes;Jamie Gould;Marcos Vinicius Maia;Sergey Korshunov;Adam Schiavone;IGusev;Shreyas Jejurkar</Authors>
+    <Authors>Tom Akita;Muhammad Rehan Saeed;Matt Furden;Drew Noakes;Jamie Gould;Marcos Vinicius Maia;Sergey Korshunov;Adam Schiavone;IGusev;Shreyas Jejurkar;GreemDev</Authors>
     <TargetFrameworks>netstandard2.0;net6.0;net8.0</TargetFrameworks>
     <AssemblyName>Colorful.Console</AssemblyName>
     <PackageId>GreemDev.Colorful.Console</PackageId>
     <PackageTags>Style;Styled;Output;Colourful;Colorful;Console;Command;Line;ASCII;Art;FIGlet</PackageTags>
-    <PackageReleaseNotes>default isWindows to false in windows check</PackageReleaseNotes>
-    <PackageIconUrl>https://github.com/tomakita/Colorful.Console/blob/master/static/colorful_icon_ngsize.png</PackageIconUrl>
-    <PackageLicenseUrl>https://github.com/tomakita/Colorful.Console/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageReleaseNotes>figlet helper</PackageReleaseNotes>
+    <PackageIconUrl>https://github.com/GreemDev/GreemDev.Colorful.Console/blob/master/static/colorful_icon_ngsize.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/GreemDev/GreemDev.Colorful.Console/blob/master/LICENSE.md</PackageLicenseUrl>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
-    <Version>1.3.1</Version>
-    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <Version>1.3.2</Version>
+    <AssemblyVersion>1.3.2.0</AssemblyVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
